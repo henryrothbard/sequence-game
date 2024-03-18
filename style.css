@@ -47,11 +47,11 @@ body {
   -webkit-backdrop-filter: blur(24px) brightness(105%);
   position: sticky;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   top: 0;
   width: 100%;
-  padding: 20px;
+  padding: 20px 10px;
   text-align: center;
   border-bottom: 1px solid var(--color-border);
   box-sizing: border-box;
@@ -59,9 +59,20 @@ body {
   z-index: 1;
 }
 
+#topText {
+  padding: 0 20px;
+}
+
+.topBlock {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 #themeDD {
-  position: absolute;
-  right: min(30px, 5vw);
+  position: relative;
+  padding: 10px;
 }
 
 #themeDD .dropdownBtn {
