@@ -145,14 +145,12 @@ body.hasHover #themeDD .dropdownContent *:hover,
   position: absolute;
   height: var(--term-size);
   width: var(--term-size);
-
   border: 2px solid white;
   border-radius: 100%;
   background-color: white;
-
-  font-size: 18px;
+  font-size: 1.24rem;
   color: black;
-
+  padding: 0;
   transition: transform 0.15s ease;
 }
 
